@@ -1,0 +1,33 @@
+{
+  "name": "student-records-app",
+  "version": "1.0.0",
+  "description": "A mobile application for managing student records with CRUD operations using SQLite.",
+  "main": "src/App.js",
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "17.0.2",
+    "react-native": "0.64.2",
+    "react-navigation": "^4.4.4",
+    "react-navigation-stack": "^1.10.3",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6",
+    "babel-jest": "^27.0.6",
+    "babel-preset-react-native": "^4.0.1"
+  },
+  "keywords": [
+    "student",
+    "records",
+    "app",
+    "sqlite",
+    "crud"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
